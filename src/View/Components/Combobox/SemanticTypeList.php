@@ -45,6 +45,6 @@ class SemanticTypeList extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.combobox.semantic-type-list');
+        return view('fw::fwcomponents.combobox.semantic-type-list');
     }
 }

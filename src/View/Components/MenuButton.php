@@ -27,6 +27,6 @@ class MenuButton extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.menu-button');
+        return view('fw::fwcomponents.menu-button');
     }
 }

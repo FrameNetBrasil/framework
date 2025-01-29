@@ -23,6 +23,6 @@ class Select extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.select');
+        return view('fw::fwcomponents.select');
     }
 }

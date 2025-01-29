@@ -34,6 +34,6 @@ class ProjectGroup extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.combobox.project-group');
+        return view('fw::fwcomponents.combobox.project-group');
     }
 }

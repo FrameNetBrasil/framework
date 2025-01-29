@@ -24,6 +24,6 @@ class Lu extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.element.lu');
+        return view('fw::fwcomponents.element.lu');
     }
 }

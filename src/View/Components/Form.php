@@ -31,6 +31,6 @@ class Form extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.form');
+        return view('fw::fwcomponents.form');
     }
 }

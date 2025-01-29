@@ -24,6 +24,6 @@ class QualiaType extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.combobox.qualia-type');
+        return view('fw::fwcomponents.combobox.qualia-type');
     }
 }

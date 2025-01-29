@@ -26,6 +26,6 @@ class Options extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.combobox.options');
+        return view('fw::fwcomponents.combobox.options');
     }
 }

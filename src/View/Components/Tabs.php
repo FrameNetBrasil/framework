@@ -27,6 +27,6 @@ class Tabs extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.tabs');
+        return view('fw::fwcomponents.tabs');
     }
 }

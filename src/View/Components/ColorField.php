@@ -26,6 +26,6 @@ class ColorField extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.color-field');
+        return view('fw::fwcomponents.color-field');
     }
 }

@@ -38,6 +38,6 @@ class QualiaRelations extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.combobox.qualia-relations');
+        return view('fw::fwcomponents.combobox.qualia-relations');
     }
 }

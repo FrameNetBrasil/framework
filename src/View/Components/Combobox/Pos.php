@@ -31,6 +31,6 @@ class Pos extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.combobox.pos');
+        return view('fw::fwcomponents.combobox.pos');
     }
 }

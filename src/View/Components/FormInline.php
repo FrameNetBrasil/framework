@@ -31,6 +31,6 @@ class FormInline extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.form-inline');
+        return view('fw::fwcomponents.form-inline');
     }
 }

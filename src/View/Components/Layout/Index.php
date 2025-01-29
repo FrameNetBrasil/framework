@@ -21,6 +21,6 @@ class Index extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.layout.index');
+        return view('fw::fwcomponents.layout.index');
     }
 }

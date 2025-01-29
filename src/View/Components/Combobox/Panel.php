@@ -25,6 +25,6 @@ class Panel extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.combobox.panel');
+        return view('fw::fwcomponents.combobox.panel');
     }
 }

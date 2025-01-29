@@ -26,6 +26,6 @@ class FileField extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.file-field');
+        return view('fw::fwcomponents.file-field');
     }
 }

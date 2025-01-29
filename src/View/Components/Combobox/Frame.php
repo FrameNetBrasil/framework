@@ -38,6 +38,6 @@ class Frame extends Component
             $this->placeholder = "Search Frame";
         }
         $this->description = $this->hasDescription ? 'description' : '';
-        return view('fw::components.combobox.frame');
+        return view('fw::fwcomponents.combobox.frame');
     }
 }

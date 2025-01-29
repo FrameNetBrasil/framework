@@ -36,7 +36,7 @@ class SemanticType extends Component
                 $result[] = [
                     'idSemanticType' => $row->idSemanticType,
                     'name' => $row->name,
-                    'html' => view('fw::components.element.semantictype', ['name' => $row->name])->render(),
+                    'html' => view('fw::fwcomponents.element.semantictype', ['name' => $row->name])->render(),
                     'state' => 'open',
                     'iconCls' => ''
                 ];
@@ -62,7 +62,7 @@ class SemanticType extends Component
             $result[] = [
                 'idSemanticType' => $row->idSemanticType,
                 'name' => $row->name,
-                'html' => view('fw::components.element.semantictype', ['name' => $row->name])->render(),
+                'html' => view('fw::fwcomponents.element.semantictype', ['name' => $row->name])->render(),
                 'state' => 'open',
                 'iconCls' => ''
             ];
@@ -75,6 +75,6 @@ class SemanticType extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.combobox.semantic-type');
+        return view('fw::fwcomponents.combobox.semantic-type');
     }
 }

@@ -28,6 +28,6 @@ class LinkButton extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.link-button');
+        return view('fw::fwcomponents.link-button');
     }
 }

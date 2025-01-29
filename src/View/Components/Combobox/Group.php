@@ -34,6 +34,6 @@ class Group extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.combobox.group');
+        return view('fw::fwcomponents.combobox.group');
     }
 }

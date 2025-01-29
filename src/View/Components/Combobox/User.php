@@ -27,6 +27,6 @@ class User extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::components.combobox.user');
+        return view('fw::fwcomponents.combobox.user');
     }
 }
