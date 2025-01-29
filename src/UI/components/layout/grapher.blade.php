@@ -1,5 +1,5 @@
 <x-fw::layout.index>
-    @include('components.layout.head')
+    @include('fw::components.layout.head')
     <header id="header">
         <i id="headMenuIcon" class="sidebar icon menuIcon cursor-pointer"></i>
         {{$head}}
@@ -9,7 +9,7 @@
             @include('Grapher.report')
             @include('Grapher.controls')
             <div class="menuLeft ui left vertical menu sidebar">
-                @include("components.layout.menu")
+                @include("fw::components.layout.menu")
             </div>
             <div class="pusher closing pusher-full">
                 <main role="main" class="main">
@@ -30,7 +30,7 @@
     <footer>
         <div class="flex justify-content-between w-full">
             <div>
-                @include("components.layout.footer")
+                @include("fw::components.layout.footer")
             </div>
             <div>
                 {!! config('webtool.version') !!}
