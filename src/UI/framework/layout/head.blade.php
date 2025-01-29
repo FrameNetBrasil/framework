@@ -25,7 +25,7 @@
             </a>
         </div>
         <div id="headLargeSearch">
-            <x-fw::layout.search></x-fw::layout.search>
+            <x-fw::framework.layout.search></x-fw::framework.layout.search>
         </div>
     </div>
     <div class="flex align-items-center justify-content-end pr-1 h-full">
@@ -70,7 +70,7 @@
     </div>
 </header>
 <div id="headSmallSearch" class="p-1">
-    <x-fw::layout.search></x-fw::layout.search>
+    <x-fw::framework.layout.search></x-fw::framework.layout.search>
 </div>
 <script>
     $(function() {
