@@ -1,9 +1,9 @@
 <x-fw::layout.index>
-    @include('fw::components.layout.head')
+    @include('fw::fwcomponents.layout.head')
     <div id="content">
         <div class="contentContainer ui pushable">
             <div class="menuLeft ui left vertical menu sidebar">
-                @include("fw::components.layout.menu")
+                @include("fw::fwcomponents.layout.menu")
             </div>
             <div class="pusher closing pusher-full">
                 <main role="main" class="main" style="width:calc(100% - 260px)">
@@ -19,7 +19,7 @@
         </div>
     </div>
     <footer>
-        @include("fw::components.layout.footer")
+        @include("fw::fwcomponents.layout.footer")
     </footer>
     <script>
         $(".menuLeft")

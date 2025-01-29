@@ -47,7 +47,7 @@
     class="wt-index"
     hx-headers='{"X-CSRF-TOKEN": "{{ csrf_token() }}"}'
 >
-@include('fw::components.confirm')
+@include('fw::fwcomponents.confirm')
 
 {{$slot}}
 

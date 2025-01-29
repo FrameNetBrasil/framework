@@ -1,5 +1,5 @@
 <x-fw::layout.index>
-    @include('fw::components.layout.head')
+    @include('fw::fwcomponents.layout.head')
     <header id="header">
         <i id="headMenuIcon" class="sidebar icon menuIcon cursor-pointer"></i>
         {{$head}}
@@ -7,7 +7,7 @@
     <div id="content">
         <div class="contentContainer ui pushable">
             <div class="menuLeft ui left vertical menu sidebar">
-                @include("fw::components.layout.menu")
+                @include("fw::fwcomponents.layout.menu")
             </div>
             <div class="pusher closing pusher-full">
                 <main role="main" class="main">
@@ -20,7 +20,7 @@
     <footer>
         <div class="flex justify-content-between w-full">
             <div>
-                @include("fw::components.layout.footer")
+                @include("fw::fwcomponents.layout.footer")
             </div>
             <div>
                 {!! config('webtool.version') !!}
