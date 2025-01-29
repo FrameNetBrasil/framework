@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace FrameNetBrasil\Framework\Http\Middleware;
 
 use App\Exceptions\AuthenticateException;
 use Illuminate\Http\Request;

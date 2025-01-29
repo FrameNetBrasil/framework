@@ -1,15 +1,14 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace FrameNetBrasil\Framework\Http\Middleware;
 
 use App\Exceptions\AuthenticateException;
 use Illuminate\Http\Request;
 use Orkester\Security\MAuth;
-use Orkester\Manager;
 use Symfony\Component\HttpFoundation\Response;
 use Closure;
 
-class AuthenticateMaster
+class Authenticate
 {
     public function handle(Request $request, Closure $next): Response
     {
@@ -19,12 +18,7 @@ class AuthenticateMaster
     protected function authenticate($request)
     {
         if (MAuth::isLogged()) {
-            if(session('isAdmin') || session('isMaster') || session('isManager')) {
-                return true;
-            }
-            else {
-                $this->unauthorizated($request);
-            }
+            return true;
         }
         $this->unauthenticated($request);
     }
@@ -33,10 +27,4 @@ class AuthenticateMaster
     {
         throw new AuthenticateException('User is not authenticated. Please, login to access this page.', 401);
     }
-
-    protected function unauthorizated($request)
-    {
-        throw new AuthenticateException("You don`t have access to this page. Please, login again.", 401);
-    }
-
 }

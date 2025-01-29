@@ -1,6 +1,6 @@
 <?php
 
-namespace FrameNetBrasil\Framework\Controllers;
+namespace FrameNetBrasil\Framework\Http\Controllers;
 
 use Collective\Annotations\Routing\Attributes\Attributes\Get;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;

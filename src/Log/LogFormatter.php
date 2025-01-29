@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Log;
+namespace FrameNetBrasil\Framework\Log;
 
 use Monolog\Formatter\JsonFormatter;
 use Monolog\Processor\IntrospectionProcessor;

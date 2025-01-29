@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Database;
+namespace FrameNetBrasil\Framework\Database;
 
-use App\Services\AppService;
+use FrameNetBrasil\Framework\Services\AppService;
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Collection;
