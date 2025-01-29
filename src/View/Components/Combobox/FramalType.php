@@ -36,6 +36,6 @@ class FramalType extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.framal-type');
+        return view('fw::framework.combobox.framal-type');
     }
 }

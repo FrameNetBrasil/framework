@@ -21,6 +21,6 @@ class Page extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.layout.page');
+        return view('fw::framework.layout.page');
     }
 }

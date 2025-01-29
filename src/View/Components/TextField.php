@@ -26,6 +26,6 @@ class TextField extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.text-field');
+        return view('fw::framework.text-field');
     }
 }

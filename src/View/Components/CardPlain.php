@@ -23,6 +23,6 @@ class CardPlain extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.card-plain');
+        return view('fw::framework.card-plain');
     }
 }

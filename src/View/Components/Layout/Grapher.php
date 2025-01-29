@@ -21,6 +21,6 @@ class Grapher extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.layout.grapher');
+        return view('fw::framework.layout.grapher');
     }
 }

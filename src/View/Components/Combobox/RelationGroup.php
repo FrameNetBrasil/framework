@@ -37,6 +37,6 @@ class RelationGroup extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.relation-group');
+        return view('fw::framework.combobox.relation-group');
     }
 }

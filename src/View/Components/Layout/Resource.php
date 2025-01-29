@@ -21,6 +21,6 @@ class Resource extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.layout.resource');
+        return view('fw::framework.layout.resource');
     }
 }

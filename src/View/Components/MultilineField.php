@@ -29,6 +29,6 @@ class MultilineField extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.multiline-field');
+        return view('fw::framework.multiline-field');
     }
 }

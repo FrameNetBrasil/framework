@@ -24,6 +24,6 @@ class InlineButton extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.inline-button');
+        return view('fw::framework.inline-button');
     }
 }

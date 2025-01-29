@@ -34,6 +34,6 @@ class Corpus extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.corpus');
+        return view('fw::framework.combobox.corpus');
     }
 }

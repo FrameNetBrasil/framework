@@ -23,6 +23,6 @@ class Breadcrumb extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.breadcrumb');
+        return view('fw::framework.breadcrumb');
     }
 }

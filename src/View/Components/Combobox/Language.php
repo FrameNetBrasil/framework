@@ -28,6 +28,6 @@ class Language extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.language');
+        return view('fw::framework.combobox.language');
     }
 }

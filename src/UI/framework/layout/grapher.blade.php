@@ -1,5 +1,5 @@
 <x-fw::layout.index>
-    @include('fw::fwcomponents.layout.head')
+    @include('fw::framework.layout.head')
     <header id="header">
         <i id="headMenuIcon" class="sidebar icon menuIcon cursor-pointer"></i>
         {{$head}}

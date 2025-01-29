@@ -34,6 +34,6 @@ class LayerGroup extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.layer-group');
+        return view('fw::framework.combobox.layer-group');
     }
 }

@@ -26,6 +26,6 @@ class NumberField extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.number-field');
+        return view('fw::framework.number-field');
     }
 }

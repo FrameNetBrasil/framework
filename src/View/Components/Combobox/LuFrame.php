@@ -44,6 +44,6 @@ class LuFrame extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.lu-frame');
+        return view('fw::framework.combobox.lu-frame');
     }
 }

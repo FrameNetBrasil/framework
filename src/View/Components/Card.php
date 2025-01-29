@@ -24,6 +24,6 @@ class Card extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.card');
+        return view('fw::framework.card');
     }
 }

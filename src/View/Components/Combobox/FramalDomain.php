@@ -35,6 +35,6 @@ class FramalDomain extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.framal-domain');
+        return view('fw::framework.combobox.framal-domain');
     }
 }

@@ -21,6 +21,6 @@ class Report extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.layout.report');
+        return view('fw::framework.layout.report');
     }
 }

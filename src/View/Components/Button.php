@@ -30,6 +30,6 @@ class Button extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.button');
+        return view('fw::framework.button');
     }
 }

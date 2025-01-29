@@ -35,6 +35,6 @@ class Domain extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.domain');
+        return view('fw::framework.combobox.domain');
     }
 }

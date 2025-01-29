@@ -40,6 +40,6 @@ class FramalType extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.checkbox.framal-type');
+        return view('fw::framework.checkbox.framal-type');
     }
 }

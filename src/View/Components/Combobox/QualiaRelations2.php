@@ -31,6 +31,6 @@ class QualiaRelations2 extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.qualia-relations-2');
+        return view('fw::framework.combobox.qualia-relations-2');
     }
 }

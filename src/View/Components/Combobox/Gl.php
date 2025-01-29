@@ -62,6 +62,6 @@ class Gl extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.gl');
+        return view('fw::framework.combobox.gl');
     }
 }

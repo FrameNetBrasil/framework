@@ -43,6 +43,6 @@ class FrameDomain extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.frame-domain');
+        return view('fw::framework.combobox.frame-domain');
     }
 }

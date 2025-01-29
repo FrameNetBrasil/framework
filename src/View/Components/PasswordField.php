@@ -24,6 +24,6 @@ class PasswordField extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.password-field');
+        return view('fw::framework.password-field');
     }
 }

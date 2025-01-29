@@ -21,6 +21,6 @@ class Browser extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.layout.browser');
+        return view('fw::framework.layout.browser');
     }
 }

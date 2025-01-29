@@ -36,6 +36,6 @@ class CardError extends Component
         if ($this->type == 'info') {
             $this->title = "Information";
         }
-        return view('fw::fwcomponents.card-error');
+        return view('fw::framework.card-error');
     }
 }

@@ -25,6 +25,6 @@ class ObjectMenu extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.objectmenu');
+        return view('fw::framework.objectmenu');
     }
 }

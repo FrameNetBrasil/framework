@@ -45,6 +45,6 @@ class FrameScenario extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('fw::fwcomponents.combobox.frame-scenario');
+        return view('fw::framework.combobox.frame-scenario');
     }
 }
