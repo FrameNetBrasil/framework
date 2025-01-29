@@ -18,6 +18,7 @@ class Button extends Component
         public string $icon = ''
     )
     {
+        debug("============================================++");
         $this->color = $color;//ucfirst($color);
         if ($this->color === 'danger') {
             $this->color = 'negative';
