@@ -1,4 +1,4 @@
-<x-layout.index>
+<x-fw::layout.index>
     @include('components.layout.head')
     <header id="header">
         <i id="headMenuIcon" class="sidebar icon menuIcon cursor-pointer"></i>
@@ -215,4 +215,4 @@
 
         });
     </script>
-</x-layout.index>
+</x-fw::layout.index>

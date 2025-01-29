@@ -23,6 +23,6 @@ class GenericLabel extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.element.generic-label');
+        return view('fw::components.element.generic-label');
     }
 }

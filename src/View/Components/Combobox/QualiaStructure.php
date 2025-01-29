@@ -28,6 +28,6 @@ class QualiaStructure extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.qualiastructure');
+        return view('fw::components.combobox.qualiastructure');
     }
 }

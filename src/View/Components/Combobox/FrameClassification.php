@@ -33,6 +33,6 @@ class FrameClassification extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.frame-classification');
+        return view('fw::components.combobox.frame-classification');
     }
 }

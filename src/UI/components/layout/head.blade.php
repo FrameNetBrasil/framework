@@ -25,7 +25,7 @@
             </a>
         </div>
         <div id="headLargeSearch">
-            <x-layout.search></x-layout.search>
+            <x-fw::layout.search></x-fw::layout.search>
         </div>
     </div>
     <div class="flex align-items-center justify-content-end pr-1 h-full">
@@ -54,23 +54,23 @@
                     <div class="item" hx-get="/user/profile" hx-trigger="click">My profile</div>
                     <div class="divider"></div>
                     <div class="item">
-                        <x-button label="Logout" hx-get="/logout"></x-button>
+                        <x-fw::button label="Logout" hx-get="/logout"></x-fw::button>
                     </div>
                 </div>
             </div>
         @else
             <div class="pl-2">
-                <x-link-button
+                <x-fw::link-button
                     href="{{$hrefLogin}}"
                     label="Login"
                     color="secondary"
-                ></x-link-button>
+                ></x-fw::link-button>
             </div>
         @endif
     </div>
 </header>
 <div id="headSmallSearch" class="p-1">
-    <x-layout.search></x-layout.search>
+    <x-fw::layout.search></x-fw::layout.search>
 </div>
 <script>
     $(function() {

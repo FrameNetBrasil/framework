@@ -28,6 +28,6 @@ class Fe extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.element.fe');
+        return view('fw::components.element.fe');
     }
 }

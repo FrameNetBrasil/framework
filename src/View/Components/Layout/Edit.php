@@ -21,6 +21,6 @@ class Edit extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.layout.edit');
+        return view('fw::components.layout.edit');
     }
 }

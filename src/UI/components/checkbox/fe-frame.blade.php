@@ -8,8 +8,8 @@
                 <input type="checkbox" name="{{$id}}[{{$i}}]"
                        value="{{$fe->idFrameElement}}" {{isset($value[$i]) ? 'checked' : ''}}>
                 <label>
-                    <x-element.fe name="{{$fe->name}}" idColor="{{$fe->idColor}}"
-                                  type="{{$fe->coreType}}"></x-element.fe>
+                    <x-fw::element.fe name="{{$fe->name}}" idColor="{{$fe->idColor}}"
+                                  type="{{$fe->coreType}}"></x-fw::element.fe>
                 </label>
             </div>
         </div>

@@ -10,8 +10,8 @@
             <div data-value="{{$fe['idFrameElement']}}"
                  class="item p-1 min-h-0">
                 @if($fe['coreType'] != '')
-                    <x-element.fe name="{{$fe['name']}}" type="{{$fe['coreType']}}"
-                                  idColor="{{$fe['idColor']}}"></x-element.fe>
+                    <x-fw::element.fe name="{{$fe['name']}}" type="{{$fe['coreType']}}"
+                                  idColor="{{$fe['idColor']}}"></x-fw::element.fe>
                 @else
                     <span>{{$fe['name']}}</span>
                 @endif

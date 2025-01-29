@@ -25,6 +25,6 @@ class LuEvent extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.lu-event');
+        return view('fw::components.combobox.lu-event');
     }
 }

@@ -42,6 +42,6 @@ class Color extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.color');
+        return view('fw::components.combobox.color');
     }
 }

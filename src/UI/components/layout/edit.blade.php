@@ -1,4 +1,4 @@
-<x-layout.page>
+<x-fw::layout.page>
     <x-slot:head>
         {{$head}}
     </x-slot:head>
@@ -7,4 +7,4 @@
             {{$main}}
         </section>
     </x-slot:main>
-</x-layout.page>
+</x-fw::layout.page>

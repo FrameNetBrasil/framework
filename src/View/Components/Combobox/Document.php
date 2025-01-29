@@ -29,6 +29,6 @@ class Document extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.document');
+        return view('fw::components.combobox.document');
     }
 }

@@ -24,6 +24,6 @@ class HiddenField extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.hidden-field');
+        return view('fw::components.hidden-field');
     }
 }

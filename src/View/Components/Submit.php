@@ -24,6 +24,6 @@ class Submit extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.submit');
+        return view('fw::components.submit');
     }
 }

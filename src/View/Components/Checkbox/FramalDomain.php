@@ -37,6 +37,6 @@ class FramalDomain extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.checkbox.framal-domain');
+        return view('fw::components.checkbox.framal-domain');
     }
 }

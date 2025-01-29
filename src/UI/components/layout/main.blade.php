@@ -1,4 +1,4 @@
-<x-layout.index>
+<x-fw::layout.index>
     @include('components.layout.head')
     <div id="content">
         <div class="contentContainer ui pushable">
@@ -34,4 +34,4 @@
             .sidebar("show")
         ;
     </script>
-</x-layout.index>
+</x-fw::layout.index>

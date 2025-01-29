@@ -21,6 +21,6 @@ class Main extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.layout.main');
+        return view('fw::components.layout.main');
     }
 }

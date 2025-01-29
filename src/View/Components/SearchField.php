@@ -29,6 +29,6 @@ class SearchField extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.search-field');
+        return view('fw::components.search-field');
     }
 }

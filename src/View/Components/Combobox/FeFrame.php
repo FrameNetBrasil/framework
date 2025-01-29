@@ -71,6 +71,6 @@ class FeFrame extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.fe-frame');
+        return view('fw::components.combobox.fe-frame');
     }
 }

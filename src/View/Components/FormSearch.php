@@ -23,6 +23,6 @@ class FormSearch extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.form-search');
+        return view('fw::components.form-search');
     }
 }

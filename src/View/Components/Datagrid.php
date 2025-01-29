@@ -33,6 +33,6 @@ class Datagrid extends Component
 //        if ($this->type == 'child') {
 //            $this->height = "32rem";
 //        }
-        return view('components.datagrid');
+        return view('fw::components.datagrid');
     }
 }

@@ -34,6 +34,6 @@ class Dataset extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.dataset');
+        return view('fw::components.combobox.dataset');
     }
 }

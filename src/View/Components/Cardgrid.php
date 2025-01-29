@@ -33,6 +33,6 @@ class Cardgrid extends Component
 //        if ($this->type == 'child') {
 //            $this->height = "32rem";
 //        }
-        return view('components.cardgrid');
+        return view('fw::components.cardgrid');
     }
 }

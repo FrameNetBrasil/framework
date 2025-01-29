@@ -74,6 +74,6 @@ class Relation extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.relation');
+        return view('fw::components.combobox.relation');
     }
 }

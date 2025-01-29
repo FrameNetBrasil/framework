@@ -15,9 +15,7 @@ class FrameworkProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/../UI/errors', 'fw');
-        $this->loadViewsFrom(__DIR__.'/../UI/components', 'fw');
-        $this->loadViewsFrom(__DIR__.'/../UI/components/layout', 'fw');
+        $this->loadViewsFrom(__DIR__.'/../UI', 'fw');
         Blade::component('layout-page', Page::class);
         Blade::componentNamespace('FrameNetBrasil\\Framework\\Views\\Components', 'fw');
     }

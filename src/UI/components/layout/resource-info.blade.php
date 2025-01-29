@@ -1,4 +1,4 @@
-<x-layout.page>
+<x-fw::layout.page>
     <header>
         <div class="flex flex align-items-center justify-content-between">
             <div>
@@ -77,4 +77,4 @@
             ;
         });
     </script>
-</x-layout.page>
+</x-fw::layout.page>

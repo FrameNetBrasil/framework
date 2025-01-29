@@ -41,6 +41,6 @@ class LayerDeixis extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.layer-deixis');
+        return view('fw::components.combobox.layer-deixis');
     }
 }

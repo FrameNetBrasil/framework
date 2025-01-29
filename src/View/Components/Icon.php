@@ -23,6 +23,6 @@ class Icon extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.icon');
+        return view('fw::components.icon');
     }
 }

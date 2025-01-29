@@ -34,6 +34,6 @@ class Project extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.project');
+        return view('fw::components.combobox.project');
     }
 }

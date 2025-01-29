@@ -9,7 +9,7 @@
         @foreach($options as $lu)
             <div data-value="{{$lu['idLU']}}"
                  class="item p-1 min-h-0">
-                <x-element.lu name="{{$lu['name']}}"></x-element.lu>
+                <x-fw::element.lu name="{{$lu['name']}}"></x-fw::element.lu>
             </div>
         @endforeach
     </div>

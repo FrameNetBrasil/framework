@@ -40,6 +40,6 @@ class LayerType extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.layer-type');
+        return view('fw::components.combobox.layer-type');
     }
 }

@@ -24,6 +24,6 @@ class Relation extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.checkbox.relation');
+        return view('fw::components.checkbox.relation');
     }
 }

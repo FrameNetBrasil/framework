@@ -22,6 +22,6 @@ class Frame extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.element.frame');
+        return view('fw::components.element.frame');
     }
 }

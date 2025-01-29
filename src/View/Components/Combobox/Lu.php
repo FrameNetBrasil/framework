@@ -27,6 +27,6 @@ class Lu extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.lu');
+        return view('fw::components.combobox.lu');
     }
 }

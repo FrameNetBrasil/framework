@@ -37,6 +37,6 @@ class FeCoreness extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.fe-coreness');
+        return view('fw::components.combobox.fe-coreness');
     }
 }

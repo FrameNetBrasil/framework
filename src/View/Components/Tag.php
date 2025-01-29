@@ -23,6 +23,6 @@ class Tag extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.tag');
+        return view('fw::components.tag');
     }
 }

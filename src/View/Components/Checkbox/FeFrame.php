@@ -44,6 +44,6 @@ class FeFrame extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.checkbox.fe-frame');
+        return view('fw::components.checkbox.fe-frame');
     }
 }

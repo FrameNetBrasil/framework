@@ -34,6 +34,6 @@ class Lemma extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.combobox.lemma');
+        return view('fw::components.combobox.lemma');
     }
 }
