@@ -1,0 +1,19 @@
+{
+    "name": "framenetbrasil/framework",
+    "type": "package",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "illuminate/support": "^11.41"
+    },
+    "autoload": {
+        "psr-4": {
+            "FrameNetBrasil\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ely Edison Matos",
+            "email": "ely.matos@gmail.com"
+        }
+    ]
+}
