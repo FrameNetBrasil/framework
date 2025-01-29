@@ -2,6 +2,7 @@
 
 namespace FrameNetBrasil\Framework\Providers;
 
+use FrameNetBrasil\Framework\View\Components\Layout\Page;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
@@ -16,6 +17,7 @@ class FrameworkProvider extends ServiceProvider
     {
         $this->loadViewsFrom(__DIR__.'/../UI/errors', 'fw');
         $this->loadViewsFrom(__DIR__.'/../UI/components', 'fw');
+        Blade::component('layout-page', Page::class);
         Blade::componentNamespace('FrameNetBrasil\\Framework\\Views\\Components', 'fw');
     }
 
