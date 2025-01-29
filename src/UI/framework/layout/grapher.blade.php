@@ -9,7 +9,7 @@
             @include('Grapher.report')
             @include('Grapher.controls')
             <div class="menuLeft ui left vertical menu sidebar">
-                @include("fw::fwcomponents.layout.menu")
+                @include("fw::framework.layout.menu")
             </div>
             <div class="pusher closing pusher-full">
                 <main role="main" class="main">
@@ -30,7 +30,7 @@
     <footer>
         <div class="flex justify-content-between w-full">
             <div>
-                @include("fw::fwcomponents.layout.footer")
+                @include("fw::framework.layout.footer")
             </div>
             <div>
                 {!! config('webtool.version') !!}
