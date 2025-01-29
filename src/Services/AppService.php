@@ -2,7 +2,7 @@
 
 namespace FrameNetBrasil\Framework\Services;
 
-use App\Database\Criteria;
+use FrameNetBrasil\Framework\Database\Criteria;
 use Orkester\Security\MAuth;
 
 class AppService
