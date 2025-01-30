@@ -4,7 +4,7 @@ namespace FrameNetBrasil\Framework\View\Components\Checkbox;
 
 use App\Database\Criteria;
 use App\Repositories\Frame;
-use App\Services\AppService;
+use FrameNetBrasil\Framework\Services\AppService;
 use App\Services\FrameService;
 use Closure;
 use Illuminate\Contracts\View\View;

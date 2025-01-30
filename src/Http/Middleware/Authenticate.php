@@ -2,7 +2,7 @@
 
 namespace FrameNetBrasil\Framework\Http\Middleware;
 
-use App\Exceptions\AuthenticateException;
+use FrameNetBrasil\Framework\Exceptions\AuthenticateException;
 use Illuminate\Http\Request;
 use Orkester\Security\MAuth;
 use Symfony\Component\HttpFoundation\Response;

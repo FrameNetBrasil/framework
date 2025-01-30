@@ -4,7 +4,7 @@ namespace FrameNetBrasil\Framework\View\Components\Combobox;
 
 use App\Database\Criteria;
 use App\Repositories\SemanticType;
-use App\Services\AppService;
+use FrameNetBrasil\Framework\Services\AppService;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;

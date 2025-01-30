@@ -3,7 +3,7 @@
 namespace FrameNetBrasil\Framework\View\Components\Combobox;
 
 use App\Database\Criteria;
-use App\Services\AppService;
+use FrameNetBrasil\Framework\Services\AppService;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Blade;

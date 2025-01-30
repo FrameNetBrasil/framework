@@ -3,7 +3,6 @@
 namespace FrameNetBrasil\Framework\Services;
 
 use FrameNetBrasil\Framework\Database\Criteria;
-use Orkester\Security\MAuth;
 
 class AppService
 {
@@ -51,12 +50,12 @@ class AppService
 
     static public function getCurrentUser(): ?object
     {
-        return MAuth::getLogin();
+        return session('user') ?? null;
     }
 
     static public function getCurrentIdUser(): ?int
     {
-        $user = MAuth::getLogin();
+        $user = session('user') ?? null;
         return $user ? $user->idUser : 0;
     }
 
