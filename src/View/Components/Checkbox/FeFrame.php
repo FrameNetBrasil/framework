@@ -2,7 +2,7 @@
 
 namespace FrameNetBrasil\Framework\View\Components\Checkbox;
 
-use App\Database\Criteria;
+use FrameNetBrasil\Framework\Database\Criteria;
 use App\Repositories\Frame;
 use FrameNetBrasil\Framework\Services\AppService;
 use App\Services\FrameService;

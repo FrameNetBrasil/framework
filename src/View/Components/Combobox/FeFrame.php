@@ -2,7 +2,7 @@
 
 namespace FrameNetBrasil\Framework\View\Components\Combobox;
 
-use App\Database\Criteria;
+use FrameNetBrasil\Framework\Database\Criteria;
 use App\Repositories\Frame;
 use App\Repositories\FrameElement;
 use App\Services\FrameService;

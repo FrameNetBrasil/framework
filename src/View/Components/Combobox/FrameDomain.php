@@ -2,7 +2,7 @@
 
 namespace FrameNetBrasil\Framework\View\Components\Combobox;
 
-use App\Database\Criteria;
+use FrameNetBrasil\Framework\Database\Criteria;
 use App\Repositories\SemanticType;
 use FrameNetBrasil\Framework\Services\AppService;
 use Closure;

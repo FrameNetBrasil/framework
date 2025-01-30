@@ -2,7 +2,7 @@
 
 namespace FrameNetBrasil\Framework\View\Components\Combobox;
 
-use App\Database\Criteria;
+use FrameNetBrasil\Framework\Database\Criteria;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
