@@ -6,6 +6,7 @@ use FrameNetBrasil\Framework\Database\Criteria;
 use FrameNetBrasil\Framework\Services\AppService;
 use Closure;
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\Blade;
 use Illuminate\View\Component;
 use App\Repositories\SemanticType as SemanticTypeRepository;
 
@@ -35,7 +36,8 @@ class SemanticType extends Component
                 $result[] = [
                     'idSemanticType' => $row->idSemanticType,
                     'name' => $row->name,
-                    'html' => view('fw::element.semantictype', ['name' => $row->name])->render(),
+                    //'html' => view('fw::element.semantictype', ['name' => $row->name])->render(),
+                    'html' => Blade::render('<x-fw::element.semantictype name="{$row->name}" />'),
                     'state' => 'open',
                     'iconCls' => ''
                 ];
@@ -61,7 +63,8 @@ class SemanticType extends Component
             $result[] = [
                 'idSemanticType' => $row->idSemanticType,
                 'name' => $row->name,
-                'html' => view('fw::element.semantictype', ['name' => $row->name])->render(),
+                //'html' => view('fw::element.semantictype', ['name' => $row->name])->render(),
+                'html' => Blade::render('<x-fw::element.semantictype name="{$row->name}" />'),
                 'state' => 'open',
                 'iconCls' => ''
             ];
