@@ -1,4 +1,4 @@
-<x-layout.index>
+<x-fw::layout.index>
     <div class="ui warning message m-2">
         <div class="header">
             Warning
@@ -6,11 +6,11 @@
         <p>
             {{$message}}
         </p>
-        <x-button
+        <x-fw::button
             href="{{$goto}}"
             color="yellow"
             label="{{$gotoLabel}}"
         >
-        </x-button>
+        </x-fw::button>
     </div>
-</x-layout.index>
+</x-fw::layout.index>

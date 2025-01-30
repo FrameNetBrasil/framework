@@ -1,4 +1,4 @@
-<x-layout.index>
+<x-fw::layout.index>
     <div class="ui negative message m-2">
         <div class="header">
             Error
@@ -6,11 +6,11 @@
         <p>
            {{$message}}
         </p>
-        <x-link-button
+        <x-fw::link-button
             href="{{$goto}}"
             color="negative"
             label="{{$gotoLabel}}"
         >
-        </x-link-button>
+        </x-fw::link-button>
     </div>
-</x-layout.index>
+</x-fw::layout.index>
