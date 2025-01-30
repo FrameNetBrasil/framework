@@ -14,7 +14,7 @@ class UserPendingException extends Exception
 
     public function render(Request $request): Response
     {
-        return response()->view('errors.info', [
+        return response()->view('fw::errors.info', [
             'message' => $this->getMessage(),
             'goto' => '/',
             'gotoLabel' => 'Home'

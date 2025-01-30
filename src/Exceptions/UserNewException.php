@@ -14,7 +14,7 @@ class UserNewException extends Exception
 
     public function render(Request $request): Response
     {
-        return response()->view('errors.warning', [
+        return response()->view('fw::errors.warning', [
             'message' => $this->getMessage(),
             'goto' => '/',
             'gotoLabel' => 'Home'

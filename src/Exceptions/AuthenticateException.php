@@ -14,7 +14,7 @@ class AuthenticateException extends Exception
 
     public function render(Request $request): Response
     {
-        return response()->view('errors.error', [
+        return response()->view('fw::errors.error', [
             'message' => $this->getMessage(),
             'goto' => '/',
             'gotoLabel' => 'Home'
