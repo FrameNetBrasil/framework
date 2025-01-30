@@ -1,10 +1,8 @@
 @php
-    use Orkester\Security\MAuth;
-
     $actions = config('webtool.actions');
-    $isLogged = MAuth::isLogged();
+    $isLogged = !is_null(session('user'));
     if ($isLogged) {
-        $user = MAuth::getLogin();
+        $user = session('user');
         $userLevel = session('userLevel');
     }
     $currentLanguage = session('currentLanguage');
@@ -61,9 +59,9 @@
         @else
             <div class="pl-2">
                 <x-fw::link-button
-                    href="{{$hrefLogin}}"
-                    label="Login"
-                    color="secondary"
+                        href="{{$hrefLogin}}"
+                        label="Login"
+                        color="secondary"
                 ></x-fw::link-button>
             </div>
         @endif

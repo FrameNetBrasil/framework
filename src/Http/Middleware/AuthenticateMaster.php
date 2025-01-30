@@ -4,8 +4,6 @@ namespace FrameNetBrasil\Framework\Http\Middleware;
 
 use FrameNetBrasil\Framework\Exceptions\AuthenticateException;
 use Illuminate\Http\Request;
-use Orkester\Security\MAuth;
-use Orkester\Manager;
 use Symfony\Component\HttpFoundation\Response;
 use Closure;
 
@@ -18,7 +16,7 @@ class AuthenticateMaster
     }
     protected function authenticate($request)
     {
-        if (MAuth::isLogged()) {
+        if (!is_null(session('user'))) {
             if(session('isAdmin') || session('isMaster') || session('isManager')) {
                 return true;
             }

@@ -59,4 +59,32 @@ class AppService
         return $user ? $user->idUser : 0;
     }
 
+    public static function isAdmin(object $user)
+    {
+        return in_array('ADMIN', $user->memberOf);
+    }
+
+    public static function isManager(object $user)
+    {
+        return in_array('ADMIN', $user->memberOf) || in_array('MANAGER', $user->memberOf);
+    }
+    public static function isMemberOf(object $user, string $group)
+    {
+        return in_array(strtoupper($group), $user->memberOf) || static::isAdmin($user);
+    }
+
+    public static function checkAccess(string $group): bool
+    {
+        if ($group == '') {
+            return true;
+        } else {
+            $result = false;
+            $user = self::getCurrentUser();
+            if (!is_null($user)) {
+                $result = self::isMemberOf($user,$group) || self::isManager($user);
+            }
+            return $result;
+        }
+    }
+
 }

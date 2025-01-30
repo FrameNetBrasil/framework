@@ -4,7 +4,6 @@ namespace FrameNetBrasil\Framework\Http\Middleware;
 
 use FrameNetBrasil\Framework\Exceptions\AuthenticateException;
 use Illuminate\Http\Request;
-use Orkester\Security\MAuth;
 use Symfony\Component\HttpFoundation\Response;
 use Closure;
 
@@ -17,7 +16,7 @@ class Authenticate
     }
     protected function authenticate($request)
     {
-        if (MAuth::isLogged()) {
+        if (!is_null(session('user'))) {
             return true;
         }
         $this->unauthenticated($request);
