@@ -35,7 +35,7 @@ class ConceptFn4 extends Component
             $concept = Concept::byId($this->value);
             $this->placeholder = $concept->name;
         } else {
-            $this->placeholder = "Search Frame";
+            $this->placeholder = "Search Concept";
         }
         $this->description = $this->hasDescription ? 'description' : '';
         return view('fw::framework.combobox.concept-fn4');
